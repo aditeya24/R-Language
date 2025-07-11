@@ -8,6 +8,5 @@ check_sign <- function(num) {
   }
 }
 
-
 num <- as.numeric(readline("Enter num: "))
 check_sign(num)
