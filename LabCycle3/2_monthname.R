@@ -1,4 +1,4 @@
-print_month_name <- function(month_number) {
+print_month_name <- function(month_num) {
   month_name <- switch(month_num,
                        "January",
                        "February",
