@@ -10,4 +10,4 @@ find_factors <- function(num) {
 
 num <- as.integer(readline(prompt = "Enter num: "))
 factors <- find_factors(num)
-cat("Factors of ", num, ":", factors, "\n")
+cat("Factors of", num, ":", factors, "\n")
