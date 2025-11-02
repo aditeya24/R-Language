@@ -1,0 +1,10 @@
+height = c(151,174,138,186,128,136,179,163,152,131)
+weight = c(63,81,56,91,47,57,76,72,62,48)
+model = lm(weight ~ height)
+new_height = data.frame(height = 170)
+predicted_weight = predict(model, new_height)
+cat("Predicted weight: ")
+cat(predicted_weight)
+plot(height, weight, pch = 19, col = "blue", xlab = "Height(cm)", ylab =
+"Weight(kg)" )
+abline(model, col = 'red', lwd=2)
